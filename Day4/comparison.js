@@ -15,4 +15,4 @@ console.log(undefined<0);//these are confusing conversions
 console.log(undefined==0);//these are confusing conversions
 
 //strict check(===) checks value as well as datatypes
-console.log("2"===2); //returns false since value is same but datatype is different
+// console.log("2"===2); //returns false since value is same but datatype is different
