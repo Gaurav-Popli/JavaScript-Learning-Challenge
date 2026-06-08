@@ -1,45 +1,56 @@
-//array
+// //array
 
-const myArr=["baba",0,1,2,3,4,5,true,"gaurav"]
+// const myArr=["baba",0,1,2,3,4,5,true,"gaurav"]
 
-// const myHeros=["ironman","superman","batman"]
+// // const myHeros=["ironman","superman","batman"]
  
-// console.log(myArr[0]);
-// const myArr1=new Array(2,4,6,8)
-//array methods
-// myArr.push(6)
-// console.log(myArr);
+// // console.log(myArr[0]);
+// // const myArr1=new Array(2,4,6,8)
+// //array methods
+// // myArr.push(6)
+// // console.log(myArr);
 
-// myArr.pop()
-// console.log(myArr);
-// myArr.unshift(10)//adds element at beginnig of array
-// console.log(myArr);
+// // myArr.pop()
+// // console.log(myArr);
+// // myArr.unshift(10)//adds element at beginnig of array
+// // console.log(myArr);
 
-// myArr.shift()
-// console.log(myArr);
+// // myArr.shift()
+// // console.log(myArr);
 
-// console.log(myArr.includes(2));
-// myArr.push(6)
-// console.log(myArr.indexOf(2));
-// const newArr=myArr.join()
-// console.log(myArr);
-// console.log(newArr);
+// // console.log(myArr.includes(2));
+// // myArr.push(6)
+// // console.log(myArr.indexOf(2));
+// // const newArr=myArr.join()
+// // console.log(myArr);
+// // console.log(newArr);
 
-// console.log(typeof myArr);
-// console.log(typeof newArr);
+// // console.log(typeof myArr);
+// // console.log(typeof newArr);
 
-//slice,splice
+// //slice,splice
 
-console.log("a",myArr);
+// console.log("a",myArr);
 
-const myNewArr=myArr.slice(1,3)
+// const myNewArr=myArr.slice(1,3)
 
-console.log(myNewArr);
-console.log("b",myArr);
+// console.log(myNewArr);
+// console.log("b",myArr);
 
 
-const myNewArr1=myArr.splice(1,3)//splice(parameter1 or start ,parameter2 or end) splice method removes  values present at index 1,2,3 
+// const myNewArr1=myArr.splice(1,3)//splice(parameter1 or start ,parameter2 or end) splice method removes  values present at index 1,2,3 
 
-console.log("c",myArr);
-console.log(m yNewArr1);
+// console.log("c",myArr);
+// console.log(myNewArr1);
 
+
+
+const m_hero=["ironman","thor","hulk"]
+const dc_hero=["batman","superman","flash"]
+m_hero.push(dc_hero)//adds dc heros as a singl elemnt in m_hero array
+console.log(m_hero);
+console.log(m_hero[3]);//gives[ 'batman', 'superman', 'flash' ] as output
+
+console.log(m_hero[3][1]);//gives superman as output like in [ 'batman', 'superman', 'flash' ] element at index 1
+m_hero.concat(dc_hero);
+console.log(m_hero);
