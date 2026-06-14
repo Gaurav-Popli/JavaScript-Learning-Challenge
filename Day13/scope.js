@@ -1,5 +1,5 @@
-// //global scope 
-// let a=3000
+//global scope 
+let a=3000
 
 
 // // let a=10
@@ -20,4 +20,4 @@
 //console.log(c);//since variable 'c' is declared inside if block using var keyword it will still print the value of c as the scope of var keyword is not fixed also if you declare variable c without using any keyword then also the same issue arises like it will still print value of c even though it is declared inside an if block prints c=30 
 //console.log(d);//declared variable inside if blaock without using any keyword still it prints value od d =31
 
-// console.log(a)
+ console.log(a)
