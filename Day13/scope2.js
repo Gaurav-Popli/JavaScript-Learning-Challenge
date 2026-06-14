@@ -31,7 +31,7 @@ function addone(num){
     return num+1
 }
 
-console.log(addTwo(2))//if written above its declaration it does not gives correct output as it cannot access the function as function here is stored inside of a variable due to hoisting concept i.e acceccsing a variable before declaring
+//console.log(addTwo(2))//if written above its declaration it does not gives correct output as it cannot access the function as function here is stored inside of a variable due to hoisting concept i.e acceccsing a variable before declaring
 
 const addTwo=function(num)//it is function but is also called expression
 {
@@ -42,3 +42,7 @@ console.log(addone(2))//if written above its declaration it gives correct output
 console.log(addTwo(2))//if written above its declaration it does not gives correct output as it cannot access the function as function here is stored inside of a variable due to hoisting concept i.e acceccsing a variable before declaring
 
 
+function addCheck(num1,num2){
+    return num1+num2
+}
+console.log(addCheck(3,4));
